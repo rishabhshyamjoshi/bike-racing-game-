@@ -18,8 +18,7 @@ function preload(){
   bike1image = loadImage("images/bike.jpg");
   bike2image = loadImage("images/bike1.png");
 
-  
-}
+ }
 
 function setup(){
   canvas = createCanvas(displayWidth - 20, displayHeight-30);
