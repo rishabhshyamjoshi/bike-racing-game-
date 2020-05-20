@@ -45,8 +45,11 @@ class Game {
       var y;
     }
     bike1 = createSprite(100,200);
+    bike1.addImage(bike1Image);
     bike2 = createSprite(300,200);
-  
+    bike2.addImage(bike2Image);
+
+    
     bikes = [bike1, bike2];
 
   for(var plr in allPlayers){
